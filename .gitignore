@@ -1,0 +1,4 @@
+node_modules/
+.pr-triage/
+pr-triage-report*.md
+docs/media/.frames/

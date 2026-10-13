@@ -1,0 +1,23 @@
+{
+  "name": "pr-triage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sorts a repository's open pull requests into real work and likely AI slop, with plain-English reasons.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "pr-triage": "pr-triage/pr-triage.mjs"
+  },
+  "scripts": {
+    "test": "node --test pr-triage/pr-triage.test.mjs",
+    "demo": "node pr-triage/pr-triage.mjs --demo",
+    "pr-triage": "node pr-triage/pr-triage.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Today-In-Ai-Builds/pr-triage"
+  },
+  "engines": {
+    "node": ">=24.2"
+  }
+}

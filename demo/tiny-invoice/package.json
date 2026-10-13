@@ -1,0 +1,12 @@
+{
+  "name": "tiny-invoice",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
